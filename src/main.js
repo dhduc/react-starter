@@ -6,6 +6,10 @@ import Counter from './Counter';
 document.addEventListener('DOMContentLoaded', function() {
   ReactDOM.render(
     React.createElement(Counter),
-    document.getElementById('mount')
+    document.getElementById('hello')
+  );
+  ReactDOM.render(
+    <h1>Main</h1>,
+    document.getElementById('main')
   );
 });
